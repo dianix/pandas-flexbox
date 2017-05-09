@@ -4,6 +4,46 @@
     padding: 0;
 } 
 
+body {
+    width: 100%;
+    background-color: #9b9b9b;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .container {
     display: flex;
+}
+
+header {
+    height: 100px;
+    padding: 0 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    line-height: 100px;
+    color: #4e4e4e;
+}
+
+#logo-nombre {
+    width: 20%;
+    justify-content: space-between;
+}
+
+#logo-nombre img {
+    height: 80%;
+    margin: auto 0;
+}
+
+nav {
+    width: 40%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #5cff06;
 }
