@@ -35,14 +35,14 @@ function identificarSpan() {
 
 function ocultarFoto(boton) {
     var cajaImg = boton.parentNode;
-    cajaImg.style.visibility = "hidden";
+    cajaImg.style.display = "none";
 }
 
 function restaurarImgs() {
     //console.log(cajaImagenes.children);
     var imagencillas = cajaImagenes.children;
     for (var i = 0; i < imagencillas.length; i++) {
-        imagencillas[i].style.visibility = "visible";
+        imagencillas[i].style.display = "inline-block";
     }
 }
 
