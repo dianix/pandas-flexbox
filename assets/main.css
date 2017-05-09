@@ -5,7 +5,7 @@
 
 body {
     width: 100%;
-    background-color: #9b9b9b;
+    background-color: #777777;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -55,17 +55,20 @@ a:hover {
 
 #fotos div {
     background-color: white;
-    padding: 30px;
+    width: 20%;
+    max-width: 10em;
+    padding: 2%;
     border: 5px solid #dddddd;
 }
 
 #fotos div span {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: -10px;
     font-size: 30px;
     line-height: 0;
     color: #c6c6c6;
+}
+
+#fotos div img {
+    width: 100%;
 }
 
 #fotos div span:hover {
@@ -108,7 +111,6 @@ button:hover {
 
 #textos p {
     color: #ffffff;
-    text-align: justify;
     line-height: 23px;
 }
 
