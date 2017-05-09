@@ -97,7 +97,7 @@ button:hover {
 }
 
 #textos {
-    margin: 30px 0 0;
+    margin: 30px 0;
     justify-content: space-around;
 }
 
@@ -105,8 +105,23 @@ button:hover {
     width: 40%;
 }
 
-p {
+#textos p {
     color: #ffffff;
     text-align: justify;
     line-height: 23px;
+}
+
+footer {
+    height: 70px;
+    background-color: #6ac600;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+footer img {
+    height: 50px;
+    margin-right: 20px;
 }
