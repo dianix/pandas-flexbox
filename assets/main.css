@@ -1,8 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-} 
+}
 
 body {
     width: 100%;
@@ -19,18 +18,18 @@ header {
     padding: 0 50px;
     background-color: #fff;
     justify-content: space-between;
-    line-height: 100px;
+    align-items: center;
     color: #4e4e4e;
 }
 
 #logo-nombre {
     width: 20%;
     justify-content: space-between;
+    align-items: center;
 }
 
 #logo-nombre img {
-    height: 80%;
-    margin: auto 0;
+    height: 80px;
 }
 
 nav {
@@ -40,10 +39,74 @@ nav {
 
 a {
     text-decoration: none;
-    color: #8e8e8e;
+    color: #aaaaaa;
     font-weight: 700;
 }
 
 a:hover {
-    color: #5cff06;
+    color: #89ff00;
+}
+
+#fotos {
+    margin: 30px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fotos div {
+    background-color: white;
+    padding: 30px;
+    border: 5px solid #dddddd;
+}
+
+#fotos div span {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -15px;
+    line-height: 0;
+    color: #c6c6c6;
+}
+
+#fotos div span:hover {
+    cursor: pointer; cursor: hand;
+    color: #89ff00;
+}
+
+#botonera {
+    height: 50px;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #89ff00;
+    border-width: 0;
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #89ff00;
+}
+
+#textos {
+    margin: 30px 0 0;
+    justify-content: space-around;
+}
+
+#textos div {
+    width: 40%;
+}
+
+p {
+    color: #ffffff;
+    text-align: justify;
+    line-height: 23px;
 }
