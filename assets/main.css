@@ -54,18 +54,21 @@ a:hover {
 }
 
 #fotos div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
     background-color: white;
-    padding: 30px;
+    padding: 12px 30px 30px;
     border: 5px solid #dddddd;
 }
 
 #fotos div span {
     font-size: 30px;
-    position: absolute;
-    margin-left: 205px;
-    margin-top: -15px;
     line-height: 0;
     color: #c6c6c6;
+    margin-bottom: 20px;
+    z-index: 1;
 }
 
 #fotos div span:hover {
