@@ -101,17 +101,18 @@ button:hover {
 }
 
 #textos {
-    margin: 30px 0;
+    margin: 40px 0;
     justify-content: space-around;
 }
 
 #textos div {
-    width: 40%;
+    width: 35%;
 }
 
 #textos p {
     color: #ffffff;
-    line-height: 23px;
+    line-height: 28px;
+    font-size: 18px;
 }
 
 footer {
